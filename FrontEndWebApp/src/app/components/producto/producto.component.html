@@ -1,0 +1,38 @@
+<section class="container">
+	<div class="row">
+		<div class="col-md-12 mt-5 mb-5">
+			<h4 class="text-center">Listado de Productos</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 d-flex justify-content-center">
+			<div class="table-responsive">
+				<table class="table table-bordered table-striped">
+					<thead class="bg-light">
+						<tr>
+							<th>Código</th>
+							<th>Descripción</th>
+							<th>Precio</th>
+							<th>Cantidad</th>
+							<th>Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let producto of productos">
+							<td>{{ producto.codigo }}</td>
+							<td>{{ producto.descripcion }}</td>
+							<td>{{ producto.precio }}</td>
+							<td>{{ producto.cantidad }}</td>
+							<td>{{ producto.total }}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 d-flex justify-content-center">
+			<a [routerLink]="['/login']" class="btn btn-link">Regresar</a>
+		</div>
+	</div>
+</section>
