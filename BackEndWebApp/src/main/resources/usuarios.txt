@@ -1,6 +1,0 @@
-Nombre&&Usuario&&Clave
-Sebastian Aldas&&admin&&admin
-Juan Leon&&jleon&&jleon
-Pedro Perez&&pperez&&pperez
-Lucia Caguano&&lcaguano&&lcaguano
-Pamela Lopez&&plopez&&plopez
